@@ -5,26 +5,28 @@ on:
     branches:
       - main
   schedule:
-    - cron: "*/59 * * * *"
+    - cron: "0 */6 * * *"
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2
-
-      - name: Set node version to 18
-        uses: actions/setup-node@v3
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 18
+          run_install: false
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
           cache: 'pnpm'
 
       - name: Install dependencies
-        run: |
-         pnpm install
+        run: pnpm install
 
       - run: node .github/actions/refreshStar.js
         env:
