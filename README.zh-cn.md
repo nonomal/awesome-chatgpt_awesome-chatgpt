@@ -76,6 +76,7 @@
 
 ### Go
 - [doctorgpt](https://github.com/ingyamilmolinar/doctorgpt) DoctorGPT 是一个轻量级的独立二进制文件，它可以监控你的应用程序日志中的问题并对其进行诊断。
+- [Casibase](https://github.com/casibase/casibase) Casibase 提供一个开源的类 LangChain 人工智能知识数据库和聊天机器人，使用 Golang 构建，具有管理用户界面并支持多种模型（DeepSeek R1、ChatGPT、Claude、Llama 3、HuggingFace 等）。能够提供人工智能驱动的智能回复。
 
 ### Kotlin
 - [GPT-Assistant](https://github.com/sunshine0523/GPT-Assistant) GPT 助手是一款软件,它将 GPT 集成到 Android 设备的操作中。
@@ -100,6 +101,7 @@
 - [chatgpt-clone](https://github.com/danny-avila/chatgpt-clone) 克隆 ChatGPT，使用官方模型，逆向工程 UI，具有 AI 模型切换、信息搜索和提示模板等功能。
 - [DelphiOpenAI](https://github.com/HemulGM/DelphiOpenAI) Delphi 的 OpenAI API 客户端。使用 ChatGPT、DALL-E 等产品。
 - [Embedchain](https://github.com/embedchain/embedchain): 用于在数据集上创建类似 ChatGPT 的机器人的框架。
+- [one-api](https://github.com/songquanpeng/one-api): OpenAI 接口管理 & 分发系统，支持 Azure、Anthropic Claude、Google PaLM 2 & Gemini、智谱 ChatGLM、百度文心一言、讯飞星火认知、阿里通义千问、360 智脑以及腾讯混元，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用.
 
 ## 客户端工具
 
@@ -130,6 +132,9 @@
 - [ChatGPT-Prompt-Genius](https://github.com/benf2004/ChatGPT-Prompt-Genius) Multi-purpose ChatGPT Chrome Extension
 - [ReadAnything](https://github.com/Zhangyanbo/ReadAnything) Read any hard content with the help of GPT
 - [ChatGPT Widescreen Mode](https://chatgptevo.com/widescreen) 🖥️ Add Widescreen + Full-Window modes to ChatGPT for enhanced viewing
+- [ChatGPT Auto-Continue](https://chatgptautocontinue.com) ⏩ 当 ChatGPT 响应中断时自动继续生成答案
+- [DockyAI](https://docky.ai/) ⏩ Docky AI 是一款功能强大的浏览器插件，允许您通过侧边栏与多个 AI 模型进行实时对话。它支持多模型同时交流，并能协助您阅读网页、写作、翻译和创作图片
+- [ChatGPT Toolbox](https://chromewebstore.google.com/detail/chatgpt-toolbox/jlalnhjkfiogoeonamcnngdndjbneina) - ChatGPT 全能增强扩展 — 全文搜索聊天记录、文件夹管理、300+ 提示词库与提示词链、书签、DALL-E 图库、MP3 语音下载、用量追踪、批量导出/删除/归档，40+ 功能，支持10种语言。
 
 ## 桌面应用
 
@@ -180,8 +185,9 @@
 - [progressive-chatgpt-bot](https://github.com/ulivz/progressive-chatgpt-bot) A progressive ChatGPT feishu bot, made for Girlfriend
 - [wx-chatgpt](https://github.com/wuomzfx/wx-chatgpt) Wechat Public Account cloud hosting access chatgpt template
 - [ChatGPT for WearOS](https://github.com/DevEmperor/ChatGPT-WearOS) A powerful ChatGPT app for all WearOS devices
-- [DuckDuckGPT](https://github.com/kudoai/duckduckgpt) 🐤 Adds the magic of ChatGPT to DuckDuckGo sidebar
-- [BraveGPT](https://github.com/kudoai/bravegpt) 🦁 Adds the magic of ChatGPT to Brave Search sidebar
+- [DuckDuckGPT](https://duckduckgpt.com) 🐤 Adds the magic of ChatGPT to DuckDuckGo sidebar
+- [BraveGPT](https://bravegpt.com) 🦁 Adds the magic of ChatGPT to Brave Search sidebar
+- [AmazonGPT](https://github.com/KudoAI/amazongpt/) 🛒 为 Amazon 购物添加人工智能辅助
 
 ## 扩展 ChatGPT 功能
 - [Kubectl OpenAI plugin](https://github.com/sozercan/kubectl-ai) This project is a kubectl plugin to generate and apply Kubernetes manifests using OpenAI GPT
@@ -217,6 +223,7 @@
 - [chatgpt-android](https://github.com/skydoves/chatgpt-android) ChatGPT Android demonstrates OpenAI's ChatGPT on Android with Stream Chat SDK for Compose
 - [ChatGPT for WearOS](https://github.com/DevEmperor/ChatGPT-WearOS) A powerful ChatGPT app for all WearOS devices
 - [Smalltalk](https://github.com/tinystruct/smalltalk) A funny anonymous chat software which integrated with OpenAI ChatGPT and Stability AI.
+- [DevProjex](https://github.com/Avazbek22/DevProjex) 跨平台代码库上下文工具，提供 GUI、TUI、CLI 和只读 MCP 服务，用于为 GPT 和 LLM 工作流选择、预览、MCP 模式强制凭据脱敏、压缩并导出结构化上下文。
 
 ## 命令行工具
 - [README-AI](https://github.com/eli64s/README-AI) 使用 OpenAI 语言模型 API，为编写美观、结构化和信息丰富的 README.md 文件而设计的命令行工具。
@@ -231,11 +238,13 @@
 - [cz-git](https://github.com/Zhengqbbb/cz-git) cz-git | czg 🛠️ DX first and more engineered, lightweight, customizable, standard output format commitizen adapter and CLI
 - [Smalltalk](https://github.com/tinystruct/smalltalk) A funny anonymous chat software which support CLI and integrated with ChatGPT / GPT-3.
 - [CLI-Co-Pilot](https://github.com/AntonOsika/CLI-Co-Pilot) CLI tool that uses Codex to turn natural language commands into their Bash/ZShell/PowerShell equivalents
+- [Tura](https://github.com/Tura-AI/tura) 构建一个令牌使用量减少 80%、能交付更好结果的智能体。
 - [cli-gpt](https://github.com/MagicCube/cli-gpt) Translate human language to command line using ChatGPT
 - [HappyCommit](https://github.com/jackbackes/happycommit) HappyCommit is a delightful tool that harnesses the power of OpenAI's GPT-3.5 Turbo language model to generate meaningful and descriptive Git commit messages for you
 - [ai-commit](https://github.com/guanguans/ai-commit) Automagically generate conventional git commit messages with AI.
 - [autodoc](https://github.com/context-labs/autodoc) Autodoc is a experimental toolkit for auto-generating codebase documentation for git repositories using Large Language Models, like GPT-4 or Alpaca.
 - [prompt](https://github.com/raiyanyahya/prompt) 🥝 一个与 OpenAI ChatGPT API 互动的命令行程序。
+- [YYLO](https://github.com/yylo-dev/yylo) 面向编码智能体的命令行编排器，提供带类型的任务、验证、合并与发布就绪边界；每个任务使用专属分支/worktree，合并队列负责基于风险的审查，由 Pi 和 Codex 等子智能体执行工作。
 
 
 
@@ -256,6 +265,7 @@
 - [awesome-chatgpt](https://github.com/saharmor/awesome-chatgpt)  Posts & thoughts about prompting ChatGPT for different usages
 - [GPT-Prompter](https://github.com/giosilvi/GPT-Prompter) Browser extension to get a fast prompt (of the selected text) for OpenAI`s GPT-3, GPT-4 & ChatGPT API . Available in the Chrome web store and Firefox browser add-ons
 - [ListPrompt.com](https://listprompt.com/)  List of awesome GPT prompts from the community.
+- [AILesson Prompts](https://ailesson.io/zh/prompts) - 面向真实任务的实用 AI 提示语模板。
 
 ## 反向代理
 
@@ -270,8 +280,9 @@
 - [WebGPT](https://github.com/0hq/WebGPT) Run GPT model on the browser with WebGPU. An implementation of GPT inference in less than ~2000 lines of vanilla Javascript.
 - [KeepChatGPT](https://github.com/xcanwin/KeepChatGPT) A UserScript that enables ChatGPT to chat smoothly, never experiencing network errors again, and no need to refresh the webpage anymore.
 - [chatgpt-exporter](https://github.com/pionxzh/chatgpt-exporter) Export and Share your ChatGPT conversation history
-- [ChatGPT Auto Refresh](https://chatgptevo.com/autorefresh) ↻ Keeps ChatGPT sessions fresh to avoid network errors + Cloudflare checks
-- [Autoclear ChatGPT History](https://chatgptevo.com/autoclear) 🕶️ Adds chat auto-clear functionality to ChatGPT for more privacy
-- [DuckDuckGPT](https://github.com/kudoai/duckduckgpt) 🐤 Adds the magic of ChatGPT to DuckDuckGo sidebar
-- [BraveGPT](https://github.com/kudoai/bravegpt) 🦁 Adds the magic of ChatGPT to Brave Search sidebar
-
+- [ChatGPT Auto Refresh](https://chatgptautorefresh.com) ↻ Keeps ChatGPT sessions fresh to avoid network errors + Cloudflare checks
+- [Autoclear ChatGPT History](https://autoclearchatgpt.com) 🕶️ Adds chat auto-clear functionality to ChatGPT for more privacy
+- [DuckDuckGPT](https://duckduckgpt.com) 🐤 Adds the magic of ChatGPT to DuckDuckGo sidebar
+- [BraveGPT](https://bravegpt.com) 🦁 Adds the magic of ChatGPT to Brave Search sidebar
+- [ChatGPT Auto-Continue](https://chatgptautocontinue.com) ⏩ 当 ChatGPT 响应中断时自动继续生成答案
+- [AmazonGPT](https://github.com/KudoAI/amazongpt/) 🛒 为 Amazon 购物添加人工智能辅助
